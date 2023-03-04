@@ -172,11 +172,12 @@ void TSP(int adj[N][N])
 int main()
 {
     // Матрица смежности для данного графа
-    int adj[N][N] = { {INFINITY, 12, 27, INFINITY, 6},
-        {6, INFINITY, 21, 62, 78},
-        {8, 18, INFINITY, 86, 55},
-        {23, 52, 24, INFINITY, 18},
-        {87, 72, 52, 19, INFINITY}
+    int adj[N][N] = { 
+        {INFINITY, 8, 25, INFINITY, 4},
+        {4, INFINITY, 19, 64, 80},
+        {6, 12, INFINITY, 86, 53},
+        {21, 54, 16, INFINITY, 12},
+        {89, 70, 52, 17, INFINITY}
     };
 
     TSP(adj);
