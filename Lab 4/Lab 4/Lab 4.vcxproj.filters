@@ -18,5 +18,13 @@
     <ClCompile Include="Lab 4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Levenshtein.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Levenshtein.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
