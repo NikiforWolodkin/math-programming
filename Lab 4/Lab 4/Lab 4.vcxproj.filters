@@ -21,9 +21,15 @@
     <ClCompile Include="Levenshtein.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MultiMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Levenshtein.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiMatrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
